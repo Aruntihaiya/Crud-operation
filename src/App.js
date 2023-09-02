@@ -12,8 +12,8 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<Home/>}></Route>
-          <Route path='/register' element={<Register/>}></Route>
+          {/* <Route path='/' element={<Home/>}></Route> */}
+          <Route path='/' element={<Register/>}></Route>
           <Route path='/manage' element={<Manage/>}></Route>
           <Route path='/manage' element={<Manage/>}></Route>
           <Route path='/edit/:editId' element={<Edit/>}></Route>
